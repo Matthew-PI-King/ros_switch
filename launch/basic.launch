@@ -1,0 +1,5 @@
+<launch>
+ <node pkg="ros_switch" type="ros_switch_node" name="ros_switch_node" output="screen" />
+ <node pkg="ros_switch" type="repeater_node" name="repeater_node" output="screen" />
+</launch>
+
